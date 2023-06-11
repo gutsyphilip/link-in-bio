@@ -1,3 +1,4 @@
+import { Metadata, ResolvingMetadata } from 'next'
 import { getAllPages, getPageDataByUsername } from '@/services/pages'
 
 import LinkInBioPage from '@/components/pages/LinkInBioPage'
@@ -17,6 +18,27 @@ export async function generateStaticParams() {
         subdomain: page.userProfile.username.toLowerCase(),
     }))
 }
+
+export async function generateMetadata({ params }: UserPagesProps, parent?: ResolvingMetadata): Promise<Metadata> {
+    const pageData = await getPageDataByUsername(params.subdomain)
+
+    return {
+        metadataBase: null,
+        title: pageData?.userProfile.name,
+        description: pageData?.userProfile.bio,
+        openGraph: {
+            title: pageData?.userProfile.name,
+            description: pageData?.userProfile.bio,
+            images: [pageData?.userProfile.avatar as string],
+        },
+        twitter: {
+            title: pageData?.userProfile.name,
+            description: pageData?.userProfile.bio,
+            images: [pageData?.userProfile.avatar as string],
+        }
+    }
+}
+
 
 
 const UserPages = async (p: UserPagesProps) => {
