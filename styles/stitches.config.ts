@@ -29,22 +29,6 @@ export const {
       grey400: '#B7C2C1',
       grey500: '#A5B3B2',
 
-      lime100: '#F8FFE5',
-      lime200: '#F2FFCC',
-      lime300: '#E5FF9B',
-      lime400: '#D7FF66',
-      lime500: '#CAFF33',
-
-      orange100: '#FCE9DE',
-      orange200: '#F8CAB0',
-      orange300: '#F3AA81',
-      orange400: '#EF8B52',
-      orange500: '#EB6C25',
-
-      purple100: '#C39BFF',
-
-      red: '#EB2525',
-
       // Utility colors
       bgColor: '$white100',
 

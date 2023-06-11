@@ -17,7 +17,7 @@ const AbstractApp = (p: PropsWithChildren) => {
 
     return <ThemeProvider
         attribute="class"
-        defaultTheme="dark"
+        defaultTheme="system"
         value={SITE_THEMES}>
         {showChild && p.children}
     </ThemeProvider>
