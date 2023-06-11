@@ -14,7 +14,7 @@ const LinksListItem = (p: LinksListItemProps) => {
     const { link, ...rest } = p;
 
     return (
-        <StyledLink {...rest}>
+        <StyledLink href={p.link.url} target='_blank' {...rest}>
             {p.link.title}
         </StyledLink>
     )
@@ -22,7 +22,7 @@ const LinksListItem = (p: LinksListItemProps) => {
 
 export default LinksListItem
 
-const StyledLink = styled(motion.div, {
+const StyledLink = styled(motion.a, {
     cursor: 'pointer',
     display: 'flex',
     alignItems: 'center',

@@ -37,7 +37,6 @@
         "bio": "Passionate UI/UX Designer specializing in creating delightful and user-centric experiences. Currently working at ABC Agency.",
         "socialLinks": {
           "dribbble": "https://dribbble.com/janesmith",
-          "behance": "https://behance.net/janesmith",
           "instagram": "https://instagram.com/janesmith"
         }
       },
@@ -65,8 +64,7 @@
         "bio": "Passionate Full Stack Developer with expertise in frontend and backend technologies. Building scalable and robust web applications.",
         "socialLinks": {
           "github": "https://github.com/alexjohnson",
-          "linkedin": "https://linkedin.com/in/alexjohnson",
-          "medium": "https://medium.com/@alexjohnson"
+          "linkedin": "https://linkedin.com/in/alexjohnson"
         }
       },
       "links": [
@@ -92,7 +90,6 @@
         "avatar": "https://picsum.photos/300/300?random=4",
         "bio": "Passionate Graphic Designer with a focus on creating visually stunning designs that leave a lasting impact.",
         "socialLinks": {
-          "behance": "https://behance.net/emmadavis",
           "dribbble": "https://dribbble.com/emmadavis",
           "instagram": "https://instagram.com/emmadavis"
         }
@@ -149,7 +146,6 @@
         "bio": "Passionate Product Manager with a strong focus on creating user-centric products that solve real-world problems.",
         "socialLinks": {
           "linkedin": "https://linkedin.com/in/annawilson",
-          "medium": "https://medium.com/@annawilson",
           "twitter": "https://twitter.com/annawilson"
         }
       },
@@ -232,9 +228,7 @@
         "avatar": "https://picsum.photos/300/300?random=9",
         "bio": "Passionate Photographer capturing moments that tell a story. Specializing in portrait and landscape photography.",
         "socialLinks": {
-          "instagram": "https://instagram.com/davidwilson",
-          "500px": "https://500px.com/davidwilson",
-          "flickr": "https://flickr.com/davidwilson"
+          "instagram": "https://instagram.com/davidwilson"
         }
       },
       "links": [
